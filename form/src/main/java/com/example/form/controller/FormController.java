@@ -12,25 +12,23 @@ import com.example.form.model.Form;
 
 @Controller
 public class FormController {
-	
+
 	@Value("${app.title}")
 	private String appTitle;
-	
-	
+
 	@GetMapping("/")
-	 public String greetingForm(Model model, OAuth2AuthenticationToken auth) {
-	    model.addAttribute("form", new Form());
-	    model.addAttribute("appTitle", appTitle);
-	    model.addAttribute("userName", auth.getName());
-	    return "form";
-	  }
-	
-	@PostMapping("/save")
-	public String saveForm(@ModelAttribute Form form, Model model, OAuth2AuthenticationToken auth) {
-		model.addAttribute("form",form);
+	public String greetingForm(Model model, OAuth2AuthenticationToken auth) {
+		model.addAttribute("form", new Form());
 		model.addAttribute("appTitle", appTitle);
 		model.addAttribute("userName", auth.getName());
 		return "form";
 	}
 
+	@PostMapping("/save")
+	public String saveForm(@ModelAttribute Form form, Model model, OAuth2AuthenticationToken auth) {
+		model.addAttribute("form", form);
+		model.addAttribute("appTitle", appTitle);
+		model.addAttribute("userName", auth.getName());
+		return "form";
+	}
 }
