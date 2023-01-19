@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -67,3 +67,6 @@ body{
     max-height: 100px;
   }
 
+.message p {
+  margin: 0 !important;
+}
