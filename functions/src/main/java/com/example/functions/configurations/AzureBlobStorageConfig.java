@@ -1,4 +1,4 @@
-package main.java.com.example.functions.configurations;
+package com.example.functions.configurations;
 import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Value;

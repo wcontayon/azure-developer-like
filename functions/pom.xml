@@ -55,6 +55,7 @@
 			<artifactId>spring-cloud-azure-starter-storage-blob</artifactId>
 			<version>4.3.0</version>
 		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
@@ -110,11 +111,6 @@
         </pluginManagement>
 
 		<plugins>
-			<!-- <plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin> -->
-
 			<plugin>
                 <groupId>com.microsoft.azure</groupId>
                 <artifactId>azure-functions-maven-plugin</artifactId>
