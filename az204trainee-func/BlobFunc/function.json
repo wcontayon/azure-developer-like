@@ -4,14 +4,14 @@
       "name": "myBlob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "samples-workitems/{name}",
+      "path": "raw-images/{name}",
       "connection": ""
     },
     {
       "name": "myOutputBlob",
       "type": "blob",
       "direction": "out",
-      "path": "samples-workitems/output/{name}",
+      "path": "samples-workitems/{name}",
       "connection": ""
     }
   ]
