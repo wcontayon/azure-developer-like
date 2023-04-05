@@ -61,15 +61,15 @@
         <version>2.5.0</version>  
         <configuration> 
           <schemaVersion>v2</schemaVersion>  
-          <subscriptionId>0f2169f7-44d9-4917-a595-829f97f0b404</subscriptionId>  
-          <resourceGroup>az-204-training-rg</resourceGroup>  
-          <appName>az204liketraining-dev</appName>  
-          <pricingTier>P1v2</pricingTier>  
+          <subscriptionId>16cfc856-c2f1-4103-80c3-8deba1743963</subscriptionId>  
+          <resourceGroup>rg_trainee_02</resourceGroup>  
+          <appName>aztrainee02</appName>  
+          <pricingTier>S1</pricingTier>  
           <region>westeurope</region>  
-          <appServicePlanName>az204-training-webplan</appServicePlanName>  
-          <appServicePlanResourceGroup>az-204-training-rg</appServicePlanResourceGroup>  
+          <appServicePlanName>aztrainee02webplan</appServicePlanName>  
+          <appServicePlanResourceGroup>rg_trainee_02</appServicePlanResourceGroup>  
           <runtime> 
-            <os>Linux</os>  
+            <os>Windows</os>  
             <javaVersion>17.0.2</javaVersion>  
             <webContainer>Java SE</webContainer> 
           </runtime>  
