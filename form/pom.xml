@@ -54,7 +54,7 @@
             </exclude> 
           </excludes> 
         </configuration> 
-      </plugin>  
+      </plugin>
       <plugin> 
         <groupId>com.microsoft.azure</groupId>  
         <artifactId>azure-webapp-maven-plugin</artifactId>  
