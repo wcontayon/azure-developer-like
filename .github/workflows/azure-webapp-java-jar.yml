@@ -25,6 +25,8 @@ env:
   DISTRIBUTION: zulu                  # set this to the Java distribution
 
 on:
+  push:
+    branches: ["steps/1-web-app"]
   workflow_dispatch:
 
 permissions:
