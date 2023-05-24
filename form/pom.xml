@@ -73,7 +73,7 @@
             </exclude> 
           </excludes> 
         </configuration> 
-      </plugin>  
+      </plugin>
       <plugin> 
         <groupId>com.microsoft.azure</groupId>  
         <artifactId>azure-webapp-maven-plugin</artifactId>  
@@ -81,12 +81,12 @@
         <configuration> 
           <schemaVersion>v2</schemaVersion>  
           <subscriptionId>16cfc856-c2f1-4103-80c3-8deba1743963</subscriptionId>  
-          <resourceGroup>rg_trainee_02</resourceGroup>  
-          <appName>aztrainee02</appName>  
+          <resourceGroup>rg_trainee_12</resourceGroup>  
+          <appName>az204web12</appName>  
           <pricingTier>S1</pricingTier>  
           <region>westeurope</region>  
-          <appServicePlanName>aztrainee02webplan</appServicePlanName>  
-          <appServicePlanResourceGroup>rg_trainee_02</appServicePlanResourceGroup>  
+          <appServicePlanName>az204webplan12</appServicePlanName>  
+          <appServicePlanResourceGroup>rg_trainee_12</appServicePlanResourceGroup>  
           <runtime> 
             <os>Windows</os>  
             <javaVersion>17.0.2</javaVersion>  
