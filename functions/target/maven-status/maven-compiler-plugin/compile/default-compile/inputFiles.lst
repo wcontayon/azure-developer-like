@@ -1,0 +1,8 @@
+/workspaces/azure-developer-like/functions/src/main/java/com/example/functions/configurations/AzureBlobStorageConfig.java
+/workspaces/azure-developer-like/functions/src/main/java/com/example/functions/component/FileProcessor.java
+/workspaces/azure-developer-like/functions/src/main/java/com/example/functions/service/FileService.java
+/workspaces/azure-developer-like/functions/src/main/java/com/example/functions/FunctionsApplication.java
+/workspaces/azure-developer-like/functions/src/main/java/com/example/functions/repository/UserFeedbackRepository.java
+/workspaces/azure-developer-like/functions/src/main/java/com/example/functions/model/File.java
+/workspaces/azure-developer-like/functions/src/main/java/com/example/functions/model/UserFeedback.java
+/workspaces/azure-developer-like/functions/src/main/java/com/example/functions/FileHandler.java

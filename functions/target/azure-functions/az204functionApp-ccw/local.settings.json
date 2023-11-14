@@ -10,9 +10,9 @@
       "azure.cosmos.database":"UserFeedback",
       "azure.cosmos.populateQueryMetrics": "false",
 
-      "azure.storage.accountname": "az204trainingsa",
-      "azure.storage.accountkey":"czxqvkg+APhBDPtl5kopb+k1szPQLBu783b1EnAu4xp/TUGYGt2Aqd8ViAbGvyGTPQVoWKDKcDVW+AStcipOgg==",
-      "azure.storage.blobendpoint":"https://az204trainingsa.blob.core.windows.net/",
+      "azure.storage.account-name": "az204trainingsa",
+      "azure.storage.account-key":"czxqvkg+APhBDPtl5kopb+k1szPQLBu783b1EnAu4xp/TUGYGt2Aqd8ViAbGvyGTPQVoWKDKcDVW+AStcipOgg==",
+      "azure.storage.blob-endpoint":"https://az204trainingsa.blob.core.windows.net/",
 
       "images.raw.container":"raw-images",
       "images.watermarked.container":"watermarked-images"

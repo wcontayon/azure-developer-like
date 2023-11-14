@@ -1,0 +1,8 @@
+com/example/functions/repository/UserFeedbackRepository.class
+com/example/functions/configurations/AzureBlobStorageConfig.class
+com/example/functions/model/File.class
+com/example/functions/component/FileProcessor.class
+com/example/functions/FunctionsApplication.class
+com/example/functions/service/FileService.class
+com/example/functions/model/UserFeedback.class
+com/example/functions/FileHandler.class

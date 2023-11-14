@@ -22,8 +22,8 @@
 		<azure.functions.maven.plugin.version>1.13.0</azure.functions.maven.plugin.version>
 
 		<!-- customize those two properties. The functionAppName should be unique across Azure -->
-		<functionResourceGroup>my-spring-function-resource-group</functionResourceGroup>
-		<functionAppName>my-spring-function</functionAppName>
+		<functionResourceGroup>az-204-training-rg</functionResourceGroup>
+		<functionAppName>az204functionApp-25</functionAppName>
 
 		<functionAppRegion>westeurope</functionAppRegion>
 		<stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
@@ -115,12 +115,14 @@
                 <groupId>com.microsoft.azure</groupId>
                 <artifactId>azure-functions-maven-plugin</artifactId>
                 <configuration>
+                    <subscriptionId>16cfc856-c2f1-4103-80c3-8deba1743963</subscriptionId>  
                     <resourceGroup>${functionResourceGroup}</resourceGroup>
+                    <appServicePlanName>az204-training-webplan</appServicePlanName>
                     <appName>${functionAppName}</appName>
                     <region>${functionAppRegion}</region>
                     <runtime>
                         <os>linux</os>
-                        <javaVersion>11</javaVersion>
+                        <javaVersion>17</javaVersion>
                     </runtime>
                     <appSettings>
                         <!-- Run Azure Function from package file by default -->

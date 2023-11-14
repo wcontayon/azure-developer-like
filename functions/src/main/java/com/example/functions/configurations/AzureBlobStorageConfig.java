@@ -11,10 +11,10 @@ import com.azure.storage.common.StorageSharedKeyCredential;
 
 @Configuration
 public class AzureBlobStorageConfig {
-    @Value("${azure.storage.account-name}")
+    @Value("${azure.storage.accountname}")
     private String accountName;
 
-    @Value("${azure.storage.account-key}")
+    @Value("${azure.storage.accountkey}")
     private String accountKey;
 
     @Bean

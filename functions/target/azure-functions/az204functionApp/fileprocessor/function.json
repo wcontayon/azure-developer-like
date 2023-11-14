@@ -1,0 +1,12 @@
+{
+  "scriptFile" : "../functions-0.0.1-SNAPSHOT.jar",
+  "entryPoint" : "com.example.functions.FileHandler.run",
+  "bindings" : [ {
+    "type" : "blobTrigger",
+    "direction" : "in",
+    "name" : "file",
+    "path" : "raw-images/{name}",
+    "dataType" : "binary",
+    "connection" : "AzureWebJobsStorage"
+  } ]
+}
