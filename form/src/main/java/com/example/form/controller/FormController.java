@@ -21,6 +21,7 @@ public class FormController {
 		model.addAttribute("form", new Form());
 		model.addAttribute("appTitle", appTitle);
 		model.addAttribute("userName", auth.getName());
+
 		return "form";
 	}
 
