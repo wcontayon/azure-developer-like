@@ -86,12 +86,12 @@
         <configuration> 
           <schemaVersion>v2</schemaVersion>  
           <subscriptionId>16cfc856-c2f1-4103-80c3-8deba1743963</subscriptionId>  
-          <resourceGroup>rg_trainee_12</resourceGroup>  
-          <appName>az204wb12</appName>  
+          <resourceGroup>trainee-e4ln04-8_rg</resourceGroup>  
+          <appName>wb-trainee-08</appName>  
           <pricingTier>P1v3</pricingTier>  
           <region>westeurope</region>  
-          <appServicePlanName>ASP-rgtrainee12-9052</appServicePlanName>  
-          <appServicePlanResourceGroup>rg_trainee_12</appServicePlanResourceGroup>  
+          <appServicePlanName>ASP-traineee4ln048rg-8b30</appServicePlanName>  
+          <appServicePlanResourceGroup>trainee-e4ln04-8_rg</appServicePlanResourceGroup>  
           <runtime> 
             <os>Windows</os>  
             <javaVersion>17.0.2</javaVersion>  
